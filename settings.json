@@ -8,7 +8,7 @@
   "server": {
     "ip": "peacemakerstd.aternos.me",
     "port": 19527,
-    "version": "",
+    "version": "1.21.10",
     "try-creative": false
   },
   "position": {
@@ -38,8 +38,8 @@
     },
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 20,
-    "max-reconnect-delay": 120
+    "auto-reconnect-delay": 5,
+    "max-reconnect-delay": 12
   },
   "movement": {
     "enabled": true,
@@ -60,12 +60,12 @@
   "modules": {
     "avoidMobs": true,
     "combat": false,
-    "beds": false,
+    "beds": true,
     "chat": true,
     "console-commands": true
   },
   "combat": {
-    "attack-mobs": true,
+    "attack-mobs": false,
     "auto-eat": true
   },
   "beds": {
@@ -77,7 +77,7 @@
     "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
     "events": {
       "connect": true,
-      "disconnect": true,
+      "disconnect": false,
       "chat": false
     }
   },
