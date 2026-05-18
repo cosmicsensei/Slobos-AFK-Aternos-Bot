@@ -42,7 +42,7 @@
     "max-reconnect-delay": 12
   },
   "movement": {
-    "enabled": true,
+    "enabled": false,
     "circle-walk": {
       "enabled": true,
       "radius": 4,
